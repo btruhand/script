@@ -20,7 +20,7 @@
 . /etc/init.d/functions
 
 PIDFILE="/var/run/kibana.pid"
-KIBANA_DIR="/opt/kibana/"
+KIBANA_DIR="/usr/local/kibana4"
 
 start() {
         echo -n "Starting Kibana Daemon: "
